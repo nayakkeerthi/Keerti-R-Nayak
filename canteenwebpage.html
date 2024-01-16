@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Canteen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://gyaanarth.com/wp-content/uploads/2022/06/1555583839php7ZTn79.jpg'); /* Replace 'your-image-url.jpg' with the actual image URL */
+            background-size: cover;
+            background-position: center;
+            color: #fff; 
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: #fff;
+            text-align: center;
+            padding: 2px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+            background-color:#000;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        button {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+         <h1>SRI VENKATESHWARA COLLEGE OF ENGINEERING</h1> 
+        <h2>College Canteen</h2>
+    </header>
+    
+    <section>
+        <h2>Menu</h2>
+        <ul>
+            <li>
+                <h3>Breakfast</h3>
+                <p>Delicious breakfast options to start your day.</p>
+
+
+<h4>idli sambar</h4>
+ <button onclick="addToCart('idli sambar')">Add to Cart</button>
+<h4>Masala Dosa</h4>
+ <button onclick="addToCart('Masala Dosa')">Add to Cart</button>
+<h4>Bisibele bath</h4>
+
+                <button onclick="addToCart('Bisibele bath')">Add to Cart</button>
+            </li>
+            <li>
+                <h3>Lunch</h3>
+                <p>Enjoy our hearty lunch selections.</p>
+<h4>South Indian Thali</h4>
+ <button onclick="addToCart('South Indian Thali')">Add to Cart</button>
+<h4>North Indian Thali</h4>
+ <button onclick="addToCart('North Indian Thali')">Add to Cart</button>
+<h4>Chapathi Meals</h4>
+
+                <button onclick="addToCart('Chapathi Meals')">Add to Cart</button>
+                
+            </li>
+            <li>
+                <h3>Snacks</h3>
+                <p>Quick and tasty snacks for any time of the day.</p>
+<h4>Gobi Manchurian</h4>
+ <button onclick="addToCart('Gobi Manchurian')">Add to Cart</button>
+<h4>Noodles</h4>
+ <button onclick="addToCart('Noodles')">Add to Cart</button>
+<h4>Samosa</h4>
+
+<button onclick="addToCart('Samosa')">Add to Cart</button> 
+               
+            </li>
+           <li>
+<h3>Beverages</h3>
+                <p>Quick and tasty beverages for any time of the day.</p>
+<h4>Coffee</h4>
+ <button onclick="addToCart('Coffee')">Add to Cart</button>
+<h4>Tea</h4>
+ <button onclick="addToCart('Tea')">Add to Cart</button>
+<h4>Milkshakes</h4>
+
+                <button onclick="addToCart('Milkshakes')">Add to Cart</button>
+               
+            </li>
+        </ul>
+    </section>
+<br>
+   <section>
+        <h2>Contact Us</h2>
+        <p>Location : opposite to college</p>
+        <p>Contact Details : 6984584288</p>
+    </section>
+</br>
+ <script>
+        function addToCart(item) {
+            alert(item + ' added to the cart!');
+            // You can extend this function to update a real shopping cart on the server.
+        }
+    </script>
+    <footer>
+        <p>&copy; 2024 College Canteen</p>
+    </footer>
+</body>
+</html>
